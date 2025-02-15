@@ -1,0 +1,12 @@
+google_bard_api:
+  api_key: "YOUR_GOOGLE_API_KEY"  # Replace with your actual Google API key
+  model: "text-bison-001"         # Example model name; adjust if needed
+
+train:
+  batch_size: 16
+  epochs: 10
+  learning_rate: 2e-5
+
+data:
+  raw_path: "./data/raw"
+  processed_path: "./data/processed"

@@ -1,0 +1,16 @@
+{
+    "name": "deepseek-js",
+    "version": "1.0.0",
+    "description": "DeepSeek API project in JavaScript",
+    "main": "index.mjs",
+    "type": "module",
+    "scripts": {
+        "start": "node --insecure-http-parser --trace-warnings index.mjs"
+    },
+    "dependencies": {
+        "@azure-rest/ai-inference": "latest",
+        "@azure/core-auth": "latest",
+        "@azure/core-sse": "latest",
+        "dotenv": "latest"
+    }
+}
