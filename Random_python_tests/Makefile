@@ -18,5 +18,5 @@ server:
 	@venv\Scripts\python.exe openai_api.py --cpu-only --server-name 127.0.0.1 --server-port 8000
 
 run:
-	@echo Running screen_captioner.py...
-	@venv\Scripts\python.exe screen_captioner.py
+	@echo Running eye_tracker.py...
+	@venv\Scripts\python.exe eye_tracker.py

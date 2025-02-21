@@ -1,4 +1,4 @@
-opencv-python
+opencv-python-headless==4.5.3.56
 mediapipe
 numpy
 Pillow
@@ -10,12 +10,10 @@ uvicorn
 fastapi
 pydantic
 sse-starlette
-transformers
 einops
 tiktoken
 transformers_stream_generator
 accelerate>=0.26.0
-transformers
 scikit-learn
 nltk
 spacy
