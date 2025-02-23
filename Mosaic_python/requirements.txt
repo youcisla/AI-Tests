@@ -1,0 +1,6 @@
+Pillow
+ttkbootstrap
+scipy
+numpy
+groq
+python-dotenv

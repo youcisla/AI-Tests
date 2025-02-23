@@ -1,0 +1,13 @@
+{
+  "name": "advanced-mosaic",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "groq-sdk": "latest",
+    "dotenv": "latest"
+  }
+}
